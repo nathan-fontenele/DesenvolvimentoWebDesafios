@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e6e6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: #F7B600;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: #4e4e4e;
+    display: inline;
+    font-size: 2.5em;
+}
+
+header span{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header a{
+    padding: 8px 12px;
+    color: #fff;
+}
+
+header a:hover{
+    background-color: #fff;
+    color: #F7B600;
+    border-radius: 5px;
+}
+
+nav{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+main{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+a, h2{
+    color: #F7B600;
+    text-decoration: none;
+    padding: 3px 0;
+}
+
+img{
+    width: 100%;
+}
+
+h3{
+    background-color: #cccbcb;
+    padding: 5px;
+    color: rgb(43, 42, 42);
+}
+
+.area-postagem{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-align: justify;
+}
+
+.postagem span{
+    font-weight: bold;
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.postagem a:hover, .postagem-recente a:hover, .categorias a:hover{
+    text-decoration: underline;
+}
+
+.lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem-recente{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.postagem-recente a, .categorias a{
+    color: #F7B600;
+    display: block;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.texto-lateral:nth-child(2n){
+    border-bottom: 1px dotted #c0c0c0;
+}
+
+.texto-lateral p{
+    display: block;
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
+.categorias{
+    background-color: #fff;
+    padding: 10px;
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0;
+}
