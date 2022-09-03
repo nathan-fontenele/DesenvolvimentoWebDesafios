@@ -15,15 +15,11 @@ table{
     padding: 20px;
 }
 
-td{
-    border: 1px solid red;
-    
-}
-
 .links{
     text-decoration: none;
     text-align: right;
     color: black;
+    width: 400px;
 }
 
 #capa{
@@ -41,5 +37,22 @@ td p{
 #rodape{
     text-align: center;
     font-weight: bolder;
-    padding: 10px 0;
+    padding: 40px 0 0 0;
+}
+
+#sobre{
+    background: url(../img/fundo2.png);
+}
+
+#sobre h3{
+    padding: 20px 0;
+}
+
+#sobre ol li{
+    list-style-position: inside;
+    text-indent: 20px;
+}
+
+#sobre hr{
+    margin: 10px 0;
 }
