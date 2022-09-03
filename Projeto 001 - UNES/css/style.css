@@ -9,7 +9,6 @@ body{
 }
 
 table{
-    border: 1px solid red;
     width: 920px;
     margin: 0px auto;
     padding: 20px;
@@ -23,10 +22,15 @@ table{
 }
 
 #capa{
-    margin-top: 15px;
+    padding: 0px;
+    margin: 19px 0;
 }
 
 td h2{
+    padding: 20px 0;
+}
+
+h3{
     padding: 20px 0;
 }
 
@@ -34,18 +38,8 @@ td p{
     padding: 10px 0;
 }
 
-#rodape{
-    text-align: center;
-    font-weight: bolder;
-    padding: 40px 0 0 0;
-}
-
-#sobre{
+#sobre, #contato{
     background: url(../img/fundo2.png);
-}
-
-#sobre h3{
-    padding: 20px 0;
 }
 
 #sobre ol li{
@@ -53,6 +47,12 @@ td p{
     text-indent: 20px;
 }
 
-#sobre hr{
-    margin: 10px 0;
+hr{
+    margin: 20px 0;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bolder;
+    padding: 40px 0 0 0;
 }
